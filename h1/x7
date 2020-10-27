@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "N minuta: $1"
+A=$(echo "$1 * 60"|bc)
+sudo watch -n $A who -l >>log_history.log

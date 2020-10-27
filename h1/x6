@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "Argument: $1"
+find /home/username -size +$1 -type f -print0 | xargs -0 tar -cvzf backup.tgz

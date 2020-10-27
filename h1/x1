@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo pm-suspend | at now + 60min

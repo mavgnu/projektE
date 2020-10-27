@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "Prvi arg : $1"
+echo "Drugi arg : $2"
+echo ""
+
+echo "atoi:"
+echo "$(($1))"
+echo "itoa:"
+printf '%s\n' "$2"
