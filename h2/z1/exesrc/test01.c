@@ -5,7 +5,7 @@
 
 typedef float cmplx_t[2];
 
-int main(){
+int main(void){
 	cmplx_t a = {2, 1};
 	cmplx_t b = {0, -2};
 	cmplx_t c;

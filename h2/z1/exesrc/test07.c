@@ -5,10 +5,10 @@
 
 typedef float cmplx_t[2];
 
-int main(){
-        cmplx_t a = {1.75, -1.25};
-        cmplx_t b = {0, 1};
-        cmplx_t c = {2.75, 2.25};
+int main(void){
+	cmplx_t a = {1.75, -1.25};
+	cmplx_t b = {0, 1};
+	cmplx_t c = {2.75, 2.25};
 	cmplx_t d = {-0.5, 0};
 
 	cmplx_t e;
